@@ -22,6 +22,10 @@ impl Marketplace {
     }
 
 
+    pub fn get_product(&self, id: &String) -> Option<String> {
+        self.products.get(id)
+    }
+
 
 
 }
